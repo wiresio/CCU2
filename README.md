@@ -2,7 +2,7 @@ Upload device description:
 - ssh CCU2
 - cd /var
 - more ids
-- BidCoS-Address=0x23c19d -> HMID of CCU2
+- BidCoS-Address=HMIDOFYOURHOMEMATICINTERFACE -> HMID of CCU2
 - cd /firmware/rftypes/ -> XML
 - mount -o remount,rw /
 - chmod 755 rf_s_1conf_644_le_v1_5.xml
